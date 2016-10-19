@@ -6,7 +6,7 @@ Usage: python deepboost.py source_dir dataset_name test_file result_file, where
 
 source_dir: directory where two training files are stored
 
-dataset_name: name of the dataset and two training files should have the name of dataset_name+".positives.fa" and dataset_name+"negatives.fa"
+dataset_name: name of the dataset and two training files should have the name of dataset_name+".positives.fa" and dataset_name+".negatives.fa"
 
 test_file: the name of the test file
 
@@ -25,7 +25,7 @@ Usage: python motif.py source_dir dataset_name, where
 
 source_dir: directory where two training files are stored
 
-dataset_name: name of the dataset and two training files should have the name of dataset_name+".positives.fa" and dataset_name+"negatives.fa"
+dataset_name: name of the dataset and two training files should have the name of dataset_name+".positives.fa" and dataset_name+".negatives.fa"
 
 Note:
 It accepts a file "dict_motif.fa", which currently consists of all 8-mers. For generating motifs of length n, this file should be replaced to contain all n-mers.
